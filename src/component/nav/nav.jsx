@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.svg";
 
 const   Nav = () => {
@@ -10,10 +11,19 @@ const   Nav = () => {
         </div>
         <div className="md:flex hidden text-sm mt-10 ml-auto mr-44">
           <div className="self-center flex">
-            <div className="mx-9">ABOUT US</div>
-            <div className="mr-9">STORIES</div>
-            <div className="mr-9">CONTACT US</div>
-            <div className="mr-2">LOGIN</div>
+          <Link to="/">
+              <a className="mx-9">ABOUT US</a>
+              </Link>
+
+            <Link to="/stories">
+              <a className="mr-9">STORIES</a>
+            </Link>
+            <Link to="/">
+              <a className="mr-9">CONTACT US</a>
+            </Link>
+            <Link to="/">
+              <a className="mr-2">LOGIN</a>
+              </Link>
           </div>
           <button
             class="bg-button-color w-20 h-6 mt-2 rounded-lg text-white"
