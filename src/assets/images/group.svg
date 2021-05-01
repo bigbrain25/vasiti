@@ -1,6 +1,6 @@
-<svg width="414" height="444" viewBox="0 0 414 444" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M351.018 441C411.076 396.451 450 325.021 450 244.5C450 109.466 340.534 0 205.5 0C70.4664 0 -39 109.466 -39 244.5C-39 325.021 -0.076355 396.451 59.9817 441H351.018Z" fill="#2E2E2E"/>
-<rect x="-28.1506" width="478.151" height="443.277" fill="url(#pattern0)"/>
+<svg width="631" height="631" viewBox="0 0 631 631" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<circle cx="315.5" cy="315.5" r="315.5" fill="#2E2E2E"/>
+<rect x="14" width="617" height="572" fill="url(#pattern0)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(0 -0.365822) scale(0.00138889 0.00149815)"/>
