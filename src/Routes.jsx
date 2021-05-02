@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Appreciation from "./component/Appreciation";
+import Appreciation from "./pages/Appreciation";
 import Testimonial from "./component/card/testimonial";
 import Footer from "./component/Footer";
 import nav from "./component/nav/nav";
-import Stories from "./component/Stories";
+import Stories from "./pages/Stories";
 import Home from "./pages/home";
 
 const Routes = () => {

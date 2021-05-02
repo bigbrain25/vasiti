@@ -12,17 +12,19 @@ const Nav = () => {
         <div className="md:flex hidden text-sm mt-10 ml-auto mr-44">
           <div className="self-center flex">
             <Link to="/">
-              <a className="mx-9">ABOUT US</a>
+              <a href="/" className="mx-9">
+                ABOUT US
+              </a>
             </Link>
 
             <Link to="/stories">
-              <a className="mr-9">STORIES</a>
+              <a href="/" className="mr-9">STORIES</a>
             </Link>
             <Link to="/">
-              <a className="mr-9">CONTACT US</a>
+              <a href="/"  className="mr-9">CONTACT US</a>
             </Link>
             <Link to="/">
-              <a className="mr-2">LOGIN</a>
+              <a href="/" className="mr-2">LOGIN</a>
             </Link>
           </div>
           <button

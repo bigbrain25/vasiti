@@ -9,6 +9,7 @@ module.exports = {
         'thanks-color': '#FFF8F5',
         'vasiti-gray': '#514D4A',
         'light-blue': '#EEF8FF',
+        'v-color': '#E5E5E5',
       },
       width: {
         527: '527px',
