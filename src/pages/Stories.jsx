@@ -33,8 +33,9 @@ const Stories = () => {
                     type="file"
                     placeholder="Username"
                     onChange={(e) => setChange(e.target.value)}
+                    accept="image/png, image/jpeg"
                   />
-                  <span className="mr-3 md:ml-12 z-10 mt-2">
+                  <span className="mr-3 md:ml-48 z-10 mt-2">
                     <img className="w-4 h-4" src={AtImg} alt="img" />
                   </span>
                 </div>
