@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/images/logo.svg";
+import nen from "../../assets/images/nen.png";
 
 const Nav = () => {
   return (
     <div>
       <div className="flex">
         <div className="ml-8 mt-10">
-          <img src={logo} alt="logo" />
+          <img src={nen} alt="logo" className="h-7 w-7"/>
         </div>
         <div className="md:flex hidden text-sm mt-10 ml-auto mr-44">
           <div className="self-center flex">
@@ -23,16 +23,16 @@ const Nav = () => {
             <Link to="/">
               <a href="/"  className="mr-9">CONTACT US</a>
             </Link>
-            <Link to="/">
+            {/* <Link to="/">
               <a href="/" className="mr-2">LOGIN</a>
-            </Link>
+            </Link> */}
           </div>
-          <button
+          {/* <button
             class="bg-button-color w-20 h-6 mt-2 rounded-lg text-white"
             type="button"
           >
             SIGN UP
-          </button>
+          </button> */}
         </div>
       </div>
       <div className="hidden md:flex justify-center text-sm border border-opacity-40 p-3 mt-3">
@@ -48,12 +48,12 @@ const Nav = () => {
         <Link to="/">
           <div className="mr-9">SERVICES</div>
         </Link>
-        <Link to="/">
+        {/* <Link to="/">
           <div className="mr-9">INTERNSHIP</div>
         </Link>
         <Link to="/">
           <div>EVENTS</div>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
